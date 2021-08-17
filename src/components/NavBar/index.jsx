@@ -44,7 +44,7 @@ const NavBar = ({ countries, updateSearch }) => {
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="mx-auto">
             <NavDropdown title={selectedCountry} id="collasible-nav-dropdown">
               {Object.keys(countries).map((country) => (
                 <NavDropdown.Item
