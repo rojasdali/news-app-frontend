@@ -1,0 +1,30 @@
+.category-nav-wrapper {
+  border-bottom: 2px solid lightgray;
+  width: 100%;
+  max-width: 55rem;
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      @extend %links;
+      border-bottom: 3.5px solid transparent;
+      padding-bottom: 1.5rem;
+      text-align: center;
+      &.selected {
+        padding-bottom: 1.5rem;
+        border-bottom: 3.5px solid gray;
+      }
+      &:hover:not(.selected) {
+        border-bottom: 3.5px solid lighten(gray, 20%);
+      }
+
+      .category-label {
+        margin: 0 4px;
+      }
+    }
+  }
+}

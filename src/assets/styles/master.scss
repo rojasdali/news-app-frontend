@@ -1,0 +1,13 @@
+// master import file
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import "general";
+
+// components
+@import "components/article-card";
+@import "components/articles-list";
+@import "components/category-nav";
+@import "components/navbar";
+
+// pages
+@import "pages/news-articles";

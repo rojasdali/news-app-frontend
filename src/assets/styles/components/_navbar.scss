@@ -1,0 +1,14 @@
+.navbar-wrapper {
+  a {
+    @extend %links;
+  }
+
+  .dropdown-menu {
+    height: 20rem;
+    overflow-y: scroll;
+  }
+
+  .search {
+    margin: 0 25px;
+  }
+}

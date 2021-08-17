@@ -1,0 +1,31 @@
+.article-card-wrapper {
+  max-width: 55rem;
+  margin: 2rem auto;
+  width: 100%;
+
+  a {
+    @extend %links;
+  }
+
+  .card {
+    width: 100%;
+
+    .card-header {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    img {
+      min-height: 400px;
+      object-fit: contain;
+    }
+
+    &:hover {
+      background-color: #ffe;
+      border: 2px solid lightgray;
+      cursor: pointer;
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    }
+  }
+}
