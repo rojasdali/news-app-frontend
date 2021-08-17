@@ -34,3 +34,4 @@ You will also see any lint errors in the console.
 - instead of params use querystring
 - error pages on dead routes
 - have a toggle view for bigger / smaller cards
+- use typeahead on search and maybe the dropdown
